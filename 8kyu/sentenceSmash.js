@@ -8,6 +8,6 @@
 // ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
 
 // My Solution
-function smash (words) {
+function smash(words) {
    return words.join(' ')
 };
