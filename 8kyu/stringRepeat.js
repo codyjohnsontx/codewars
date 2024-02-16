@@ -13,3 +13,9 @@ function repeatStr(n, s) {
   }
   return repeat;
 }
+
+// Different way of doing it
+
+function repeatStr(n, s) {
+  return s.repeat(n);
+}
