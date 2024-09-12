@@ -19,3 +19,7 @@ function lovefunc(flower1, flower2) {
 const lovefunc = (flower1, flower2) => {
   return flower1 !== flower2 ? true : false;
 };
+
+// refactor further
+
+const lovefunc = (flower1, flower2) => flower1 !== flower2;
