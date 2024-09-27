@@ -17,3 +17,20 @@ function sumDigits(number) {
     return firstNum + secondNum
   }
   
+
+//   refactor
+
+function sumDigits(number) {
+    number = Math.abs(number).toString(); 
+    let sum = 0;
+  
+  
+    for (let i = 0; i < number.length; i++) {
+      sum += number[i] - '0'; 
+    }
+  
+    return sum; 
+  }
+  
+  
+  
