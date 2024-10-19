@@ -6,3 +6,11 @@
 function grow(x) {
   return x.reduce((acc, c) => acc * c, 1);
 }
+
+
+
+//  Other way of writing it out
+
+function grow(x){
+  return x.reduce((totalProduct, currentNumber) => totalProduct * currentNumber, 1)
+}
