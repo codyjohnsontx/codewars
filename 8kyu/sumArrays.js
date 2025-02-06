@@ -20,15 +20,22 @@
 
 // My solution
 
+function sumMix(x){
+  let newArray = x.map(Number)
+  let totalValue = 0;
+  
+  const sum = newArray.reduce((acc, current) => acc + current, totalValue)
+    return sum;
+  }
+  
+
 // Sum Numbers
-function sum(numbers) {
-  "use strict";
-  if (numbers.length === 0) {
-    return 0;
+function sumMix(x){
+  const newArray = x.map(Number);
+  let totalValue = 0;
+  
+    for(let i = 0; i < x.length; i++){
+      totalValue += newArray[i];
+    }
+    return totalValue;
   }
-  let totalSum = 0;
-  for (let i = 0; i < numbers.length; i++) {
-    totalSum += numbers[i];
-  }
-  return totalSum;
-}
