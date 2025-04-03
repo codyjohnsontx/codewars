@@ -18,3 +18,7 @@
 function solution(str, ending) {
   return str.endsWith(ending);
 }
+
+//or
+
+const solutionTwo = (str, ending) => str.endsWith(ending);
