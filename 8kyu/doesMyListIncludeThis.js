@@ -9,3 +9,7 @@ function include(arr, item) {
     return false;
   }
 }
+
+//refactor
+
+const include = (arr, item) => (arr.includes(item) ? true : false);
